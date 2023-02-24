@@ -1,4 +1,5 @@
 {
+  "name": "@ignite-ui",
   "private":true,
   "workspaces":[
     "packages/*"
