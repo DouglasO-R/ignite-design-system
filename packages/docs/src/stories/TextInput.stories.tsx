@@ -12,7 +12,7 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <TextArea size="sm">Email address</TextArea>
+          <TextArea>Email address</TextArea>
           {Story()}
         </Box>
       )
@@ -35,5 +35,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }

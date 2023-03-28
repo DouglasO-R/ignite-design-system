@@ -5,7 +5,7 @@
     "build": "turbo run build",
     "changeset":"changeset",
     "version-packages":"changeset version",
-    "release":"turbo run build --filter=packages/docs"
+    "release":"turbo run build --filter=!docs"
   },
   "private": true,
   "workspaces": [
